@@ -12,9 +12,9 @@ class HomeVC: StarbucksVC {
     }
     let tiles = [
         RewardsTileViewController(),
-        TileViewController(title: "Breakfast made meatless", subTitle: "Hello, I'm Suleyman Kocak. Nice to meet you. Take care of yourself. I'm a iOS Developer who works hard. Do you wanna meet ?", imageName: "meatless"),
-        TileViewController(title: "Uplifting our communities", subTitle: "Hello, I'm Suleyman Kocak. Nice to meet you. Take care of yourself. I'm a iOS Developer who works hard. Do you wanna meet ?", imageName: "communities"),
-        TileViewController(title: "Spend at least $15 for 50 bonus stars", subTitle: "Hello, I'm Suleyman Kocak. Nice to meet you. Take care of yourself. I'm a iOS Developer who works hard. Do you wanna meet ?", imageName: "bonus"),
+        TileViewController(title: "Breakfast made meatless", subTitle: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegetarian and protein-packed.", imageName: "meatless"),
+        TileViewController(title: "Uplifting our communities", subTitle: "Thanks to our partners' nominations, The Starbucks Foundation is donating $145K to more than 50 local charities.", imageName: "communities"),
+        TileViewController(title: "Spend at least $15 for 50 bonus stars", subTitle: "Collect 50 Bonus Stars when you spend at least $15 pre-tax.", imageName: "bonus"),
        
     ]
     override func viewDidLoad() {
