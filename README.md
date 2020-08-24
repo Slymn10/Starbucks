@@ -1,3 +1,3 @@
-# Starbucks
+# Starbucks Interface
 
 ![](strbucksGif.gif)
