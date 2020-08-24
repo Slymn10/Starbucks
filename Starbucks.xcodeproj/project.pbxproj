@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C50E1D924F290390040BC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50E1D824F290390040BC46 /* AppDelegate.swift */; };
+		2C50E1DD24F290390040BC46 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50E1DC24F290390040BC46 /* HomeVC.swift */; };
+		2C50E1E224F290400040BC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C50E1E124F290400040BC46 /* Assets.xcassets */; };
+		2C50E1E524F290400040BC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50E1E324F290400040BC46 /* LaunchScreen.storyboard */; };
+		2C58C0F724F2EDE60076BF7F /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58C0F624F2EDE60076BF7F /* Tile.swift */; };
+		2C58C0F924F2EDF90076BF7F /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58C0F824F2EDF90076BF7F /* TileViewController.swift */; };
+		2C58C0FB24F2F4C60076BF7F /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58C0FA24F2F4C60076BF7F /* Factories.swift */; };
+		2C5F120024F3CCD100291B67 /* RewardsTileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F11FF24F3CCD100291B67 /* RewardsTileViewController.swift */; };
+		2C5F120224F3CCFA00291B67 /* RewardsTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F120124F3CCFA00291B67 /* RewardsTileView.swift */; };
+		2C5F120424F3CFEA00291B67 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F120324F3CFEA00291B67 /* BalanceView.swift */; };
+		2C5F120624F3F57100291B67 /* RewardsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F120524F3F57100291B67 /* RewardsGraphView.swift */; };
+		2C5F120924F3F84100291B67 /* StarAndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F120824F3F84100291B67 /* StarAndPoints.swift */; };
+		2C5F120B24F411EA00291B67 /* StarRewardsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F120A24F411EA00291B67 /* StarRewardsRow.swift */; };
+		2C5F120D24F4130200291B67 /* StarRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F120C24F4130200291B67 /* StarRewardsView.swift */; };
+		2C84164A24F2C05300E33FF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C84164924F2C05300E33FF0 /* Default-568h@2x.png */; };
+		2C84164C24F2C0DE00E33FF0 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C84164B24F2C0DE00E33FF0 /* HomeHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C50E1D524F290390040BC46 /* Starbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C50E1D824F290390040BC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C50E1DC24F290390040BC46 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2C50E1E124F290400040BC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C50E1E424F290400040BC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C50E1E624F290400040BC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C58C0F624F2EDE60076BF7F /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		2C58C0F824F2EDF90076BF7F /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
+		2C58C0FA24F2F4C60076BF7F /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+		2C5F11FF24F3CCD100291B67 /* RewardsTileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTileViewController.swift; sourceTree = "<group>"; };
+		2C5F120124F3CCFA00291B67 /* RewardsTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTileView.swift; sourceTree = "<group>"; };
+		2C5F120324F3CFEA00291B67 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		2C5F120524F3F57100291B67 /* RewardsGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsGraphView.swift; sourceTree = "<group>"; };
+		2C5F120824F3F84100291B67 /* StarAndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAndPoints.swift; sourceTree = "<group>"; };
+		2C5F120A24F411EA00291B67 /* StarRewardsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsRow.swift; sourceTree = "<group>"; };
+		2C5F120C24F4130200291B67 /* StarRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsView.swift; sourceTree = "<group>"; };
+		2C84164924F2C05300E33FF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2C84164B24F2C0DE00E33FF0 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C50E1D224F290390040BC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C50E1CC24F290390040BC46 = {
+			isa = PBXGroup;
+			children = (
+				2C84164924F2C05300E33FF0 /* Default-568h@2x.png */,
+				2C50E1D724F290390040BC46 /* Starbucks */,
+				2C50E1D624F290390040BC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C50E1D624F290390040BC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C50E1D524F290390040BC46 /* Starbucks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C50E1D724F290390040BC46 /* Starbucks */ = {
+			isa = PBXGroup;
+			children = (
+				2C84164824F2C04400E33FF0 /* Home */,
+				2C84164724F2C03900E33FF0 /* Files */,
+				2C50E1D824F290390040BC46 /* AppDelegate.swift */,
+				2C50E1E624F290400040BC46 /* Info.plist */,
+				2C58C0FA24F2F4C60076BF7F /* Factories.swift */,
+			);
+			path = Starbucks;
+			sourceTree = "<group>";
+		};
+		2C5F11FE24F3CCC100291B67 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F11FF24F3CCD100291B67 /* RewardsTileViewController.swift */,
+				2C5F120124F3CCFA00291B67 /* RewardsTileView.swift */,
+				2C5F120324F3CFEA00291B67 /* BalanceView.swift */,
+				2C5F120524F3F57100291B67 /* RewardsGraphView.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		2C5F120724F3F82F00291B67 /* StarRewards */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F120824F3F84100291B67 /* StarAndPoints.swift */,
+				2C5F120A24F411EA00291B67 /* StarRewardsRow.swift */,
+				2C5F120C24F4130200291B67 /* StarRewardsView.swift */,
+			);
+			path = StarRewards;
+			sourceTree = "<group>";
+		};
+		2C84164724F2C03900E33FF0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C50E1E124F290400040BC46 /* Assets.xcassets */,
+				2C50E1E324F290400040BC46 /* LaunchScreen.storyboard */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		2C84164824F2C04400E33FF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F120724F3F82F00291B67 /* StarRewards */,
+				2C5F11FE24F3CCC100291B67 /* Rewards */,
+				2C50E1DC24F290390040BC46 /* HomeVC.swift */,
+				2C84164B24F2C0DE00E33FF0 /* HomeHeaderView.swift */,
+				2C58C0F624F2EDE60076BF7F /* Tile.swift */,
+				2C58C0F824F2EDF90076BF7F /* TileViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C50E1D424F290390040BC46 /* Starbucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C50E1E924F290400040BC46 /* Build configuration list for PBXNativeTarget "Starbucks" */;
+			buildPhases = (
+				2C50E1D124F290390040BC46 /* Sources */,
+				2C50E1D224F290390040BC46 /* Frameworks */,
+				2C50E1D324F290390040BC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starbucks;
+			productName = Starbucks;
+			productReference = 2C50E1D524F290390040BC46 /* Starbucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C50E1CD24F290390040BC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Suleyman Kocak";
+				TargetAttributes = {
+					2C50E1D424F290390040BC46 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 2C50E1D024F290390040BC46 /* Build configuration list for PBXProject "Starbucks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C50E1CC24F290390040BC46;
+			productRefGroup = 2C50E1D624F290390040BC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C50E1D424F290390040BC46 /* Starbucks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C50E1D324F290390040BC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C50E1E524F290400040BC46 /* LaunchScreen.storyboard in Resources */,
+				2C50E1E224F290400040BC46 /* Assets.xcassets in Resources */,
+				2C84164A24F2C05300E33FF0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C50E1D124F290390040BC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C58C0FB24F2F4C60076BF7F /* Factories.swift in Sources */,
+				2C5F120B24F411EA00291B67 /* StarRewardsRow.swift in Sources */,
+				2C5F120224F3CCFA00291B67 /* RewardsTileView.swift in Sources */,
+				2C84164C24F2C0DE00E33FF0 /* HomeHeaderView.swift in Sources */,
+				2C5F120024F3CCD100291B67 /* RewardsTileViewController.swift in Sources */,
+				2C5F120D24F4130200291B67 /* StarRewardsView.swift in Sources */,
+				2C5F120924F3F84100291B67 /* StarAndPoints.swift in Sources */,
+				2C50E1DD24F290390040BC46 /* HomeVC.swift in Sources */,
+				2C58C0F924F2EDF90076BF7F /* TileViewController.swift in Sources */,
+				2C5F120424F3CFEA00291B67 /* BalanceView.swift in Sources */,
+				2C58C0F724F2EDE60076BF7F /* Tile.swift in Sources */,
+				2C5F120624F3F57100291B67 /* RewardsGraphView.swift in Sources */,
+				2C50E1D924F290390040BC46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C50E1E324F290400040BC46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C50E1E424F290400040BC46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C50E1E724F290400040BC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C50E1E824F290400040BC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C50E1EA24F290400040BC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSWX57M5H9;
+				INFOPLIST_FILE = Starbucks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suleymankocak.Starbucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C50E1EB24F290400040BC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSWX57M5H9;
+				INFOPLIST_FILE = Starbucks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suleymankocak.Starbucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C50E1D024F290390040BC46 /* Build configuration list for PBXProject "Starbucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C50E1E724F290400040BC46 /* Debug */,
+				2C50E1E824F290400040BC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C50E1E924F290400040BC46 /* Build configuration list for PBXNativeTarget "Starbucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C50E1EA24F290400040BC46 /* Debug */,
+				2C50E1EB24F290400040BC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C50E1CD24F290390040BC46 /* Project object */;
+}
